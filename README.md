@@ -1,1 +1,106 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/f-sXtHED)
+#  👋 Hello There, I'm Muhammad Rifqi Saleh
+
+
+<img src="images/headerplane.jpg">
+
+
+I'M A BEGINNER IN SOFTWARE DEVELOPING. WELCOME TO MY GITHUB PROFILE! 🚀✈️
+
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/rifqisaleh) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/muhammad-rifqi-saleh-77b61911a/) 
+
+<br/>
+
+
+## <i><b>About This Project</b></i>
+Hello everyone ! <br/> <br/>
+As part of my software engineering course, i was tasked to make a simple website based of HTML. This website consist of simple Navbar, log in & sign up form, Inroduction paragraph and gallery preview. This website are made for showcasing airplane photos and as a forum for discussion.
+
+## <i><b> Table of Contents </b></i>
+<ul> <li>Technologies Used</li>
+<li>Features</li>
+<li>Setup</li>
+<li>Sections</li> 
+<li>Notes</li></ul>
+
+
+<br/>
+
+## <i><b> Technologies used </b></i>
+
+`HTML 5`
+
+<br/>
+
+## <i><b> Features </b></i> <br/>
+
+<ul>
+<li>Screen design that cater to all devices</li>
+<li>Simple navigation bar</li>
+<li>Introductory paragraph</li>
+<li>Preview section for showcasing photo</li>
+<li>Sign Up section</li> </ul>
+
+<br/>
+
+## <i><b>Setup</b></i> <br/>
+
+1. Through your preferred terminal, clone the repository:<br>
+    `git https://github.com/revou-fsse-oct24/module-1-rifqisaleh.git`
+
+2. Navigate to the project directory:<br>
+`cd module-1-rifqisaleh`
+
+3. Open the `index.html` file in your browser:
+   
+4. For accessing any picturs from "images" folder, you can use: <br>
+ `<img src="../images/headerplane.jpg"`
+
+<br>
+
+ ## <i><b>Sections</i></b>
+
+ <ul><li><b>Simple Navbar</b><br>
+Navbar consist of Home, Forum and About Us. Home and About Us are linked with 'index.html' and 'profile.html' respectively by using:<br><br>
+
+ ```{r, eval=FALSE}
+ <a href="index.html">Home</a>
+```
+```{r, eval=FALSE}
+<a href="profile.html">AboutUs</a>
+```
+The navbar are also available in 'profile.html' or About Us page file to improve accesibility. </li><br/><br>
+
+<li><b>Log In</b><br>
+Located in top section, a log in form are provided for user to log in to their account. <br><br>
+<img src="images/signinform.png">
+</li><br><br><br>
+
+<li><b>Introduction Paragraph</b><br>
+A short introduction of the website content.<br><br>
+<img src="images/introparagraph.png">
+<br><br><br>
+
+<li><b>Preview Gallery</b><br>
+This section provide a glimpse of what user can expect if they decided to join the website <br>
+<img src="images/gallerypreview.png"><br><br><br>
+
+<li><b>Sign Up</b><br>
+As for new user, a sign up form for new users to register is provided on bottom section of the page.
+<br><br>
+<img src="images/signupform.png"><br><br><br>
+
+
+## <i><b> Notes </b></i> <br>
+Throughout the html files, i have sectioned each content for easy accesibility or future development.<br><br>
+Example:<br>
+
+```{r, eval=False}
+ <section class="sign in">
+            <ul>
+          <form action="/action.php" methods="post">
+            <p><i><b>Sign In</b></i></p>
+            <label for="Email">Email</label> <br/> <input type="email" name="email" placeholder="Insert Email" id="Email"> <br/> <br/> 
+            <label for="Password">Password</label> <br/> <input type="password"  name="password" placeholder="Password" id="Password"> <br/> <br/>
+            <input type="Submit" value="submit" id="">
+          </form> </section>
+```
