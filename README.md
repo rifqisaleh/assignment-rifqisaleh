@@ -52,7 +52,7 @@ As part of my software engineering course, i was tasked to make a simple website
 
 3. Open the `index.html` file in your browser:
    
-4. For accessing any picturs from "images" folder, you can use: <br>
+4. For accessing any pictures from "images" folder, you can use: <br>
  `<img src="../images/headerplane.jpg"`
 
 <br>
@@ -91,7 +91,7 @@ As for new user, a sign up form for new users to register is provided on bottom 
 
 
 ## <i><b> Notes </b></i> <br>
-Throughout the html files, i have sectioned each content for easy accesibility or future development.<br><br>
+Throughout the html files, i have sectioned each content for easy accesibility during future development.<br><br>
 Example:<br>
 
 ```{r, eval=False}
