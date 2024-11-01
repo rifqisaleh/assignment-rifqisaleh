@@ -8,7 +8,7 @@
 
 @media screen and (min-width: 390px) and (max-width: 767px) {
   .container{
-    height: 100%
+    height: 50%
   }
   .container .navbar {
     flex-direction: column;
