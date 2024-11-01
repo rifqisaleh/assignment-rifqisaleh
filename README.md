@@ -15,7 +15,7 @@ I'M A BEGINNER IN SOFTWARE DEVELOPING. WELCOME TO MY GITHUB PROFILE! 🚀✈️
 Hello everyone ! <br/> <br/>
 As part of my software engineering course, i was tasked to make a simple website based of HTML and design it with CSS. This website consist of sticky Navbar, log in & sign up form, Introduction paragraph and gallery preview. This website are made for showcasing airplane photos and as a forum for discussion.
 
-Visit this link to access the website !
+Visit this link (https://rifqisaleh.github.io/assignment1-rifqisaleh/) to access the website !
 
 ## <i><b> Table of Contents </b></i>
 <ul><li>Technologies Used</li>
