@@ -184,14 +184,19 @@ h1{
   filter: brightness(70%);
  }
 
-.aboutus p{
+.aboutus .para{
   background-color: #e6e2d6;
   box-shadow: 5px 5px 1px 5px rgb(143, 141, 141);
   border-radius: 40px;
   margin: 30px;
   padding: 20px;
-  font-size: 30px;
+  font-size: 25px;
   font-family: "roboto" ,sans-serif;
+ }
+
+ .aboutus .para ul{
+  margin: 50px;
+  font-size: 25px;
  }
 
  @media screen and (max-width: 767px) {
@@ -203,13 +208,12 @@ h1{
     padding: 0;
     align-items: center;
     }
-
-
-.aboutus img{
-  border-radius: 100px;
-  margin: auto;
-  width: 350px;
-  height: 300px
+   
+  .aboutus img{
+    border-radius: 100px;
+    margin: auto;
+    width: 350px;
+    height: 300px
   }
   
   .aboutus p{
@@ -217,6 +221,10 @@ h1{
     width: 87%;
     font-size: 19px;
   }
+  .aboutus .para ul{
+    font-size: 20px;
+  }
+
   h1{
     font-size: 30px;
   }
@@ -340,6 +348,17 @@ font-family: "roboto" ,sans-serif;
 font-size: 30px;
 }
 
+#forms .introregister h1{
+  transition: all 2s ease;
+  text-shadow: 1px 1px white;
+}
+
+#forms .introregister h1:hover{
+  transform: scale(1.2);
+  text-shadow: 3px 3px black;
+  text-transform: uppercase;
+}
+
 #forms .register{
   width: 30%;
   margin: 0px;
@@ -450,5 +469,10 @@ footer {
   text-align: center;
   font-size: smaller;
   opacity: 80%;
+}
+
+footer p{
+font-size: 16px;
+text-transform: lowercase;
 }
 /*
