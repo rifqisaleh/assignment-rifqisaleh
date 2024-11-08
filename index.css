@@ -322,8 +322,8 @@ h1{
     justify-content: center;
   }
   .gallery__img{
-    width: 600px;
-    height: 400px;
+    width: 380px;
+    height: 200px;
   }
   .preview h1{
     font-size: 30px;
