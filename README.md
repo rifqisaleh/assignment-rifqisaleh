@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #  👋 Hello There, I'm Muhammad Rifqi Saleh
 
 
