@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #  👋 Hello There, I'm Muhammad Rifqi Saleh
 
 
@@ -152,3 +153,5 @@ Example:<br>
   color: white
   }
 ```  
+=======
+
