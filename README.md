@@ -38,7 +38,7 @@ Visit this link (https://rifqisaleh.github.io/assignment1-rifqisaleh/) to access
 <ul>
 <li>Screen design that cater to all devices</li>
 <li>Simple navigation bar</li>
-<li>Introductory paragraph & sign in</li>
+<li>Introductory paragraph </li>
 <li>Preview section for showcasing photo</li>
 <li>Sign Up section</li> </ul>
 
@@ -98,7 +98,7 @@ header {
  
  </li><br/><br>
 
-<li><b>Introduction Paragraph and Sign in</b><br>
+<li><b>Introduction Paragraph</b><br>
 A short introduction paragraph and a login form are located as part of the main content of the page.<br><br>
 <img src="images/introparagraph.png">
 <br> <br>This section are design to cater screen size change by using media query and by changing the direction of the flexbox to column in certain parametes. <br> <br>
@@ -122,6 +122,24 @@ justify-content: center;
 <li><b>Preview Gallery</b><br>
 This section provide a glimpse of what user can expect if they decided to join the website. Just like the previous section, the flexbox within the gallery preview are designed to change direction to column during screen changes. <br> <br>
 <img src="images/gallerypreview.png"><br><br><br>
+
+Moreover, transitions are added to the section to restore color when user hover their cursor on the photos.
+
+```{r, eval=false}
+.gallery__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block; 
+  filter:grayscale(100%);
+  transition: all .23s ease-in-out;
+}
+
+.gallery__img:hover {
+  filter:grayscale(0%);
+}
+```
+
 
 <li><b>Sign Up</b><br>
 As for new user, a sign up form for new users to register is provided on bottom section of the page.

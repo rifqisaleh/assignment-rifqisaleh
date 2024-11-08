@@ -1,22 +1,13 @@
- h1{
-  font-family: "Roboto", sans-serif;
-  font-size: 40px;
-  font-style: normal;
- }
-  
-p {
-  font-family: "Roboto", sans-serif;
-  font-size: 1.5rem;
-  font-style: normal;
-  }
-
-  * {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     }
 
-  
+  h1{
+    font-size: 50px;
+    font-family: "roboto" ,sans-serif;
+  }
   body{
     min-height: 100vh;
     width: 100%;
@@ -74,10 +65,11 @@ header {
     color: black;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+    font-family: "roboto" ,sans-serif;
     font-weight: bolder;
     transition-property: background-color;
-    transition-duration: 3s;
+    transition-duration: 2s;
   }
 
   li a:hover {
@@ -115,15 +107,25 @@ header {
   .intro > div{
     margin: 10px;
     padding: 20px;
-    font-size: 50px;
-    color: black;
+    font-size: 80px;
+    color: rgb(255, 250, 250);
     animation: fadeIn 5s;
   }
 
   .intro h1{
-    text-shadow: 2px 2px #020202;
+    text-shadow: 2px 2px #353434;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    font-size: 80px;
+    font-family: "roboto" ,sans-serif;
   }
 
+  .intro p{
+    text-shadow: 2px 2px #353434;
+    font-size: 40px;
+    font-style: italic;
+    font-family: "roboto" ,sans-serif;
+  }
   @keyframes fadeIn {
     0% { opacity: 0; }
     100% { opacity: 1; }
@@ -158,6 +160,13 @@ header {
       justify-content: center;
       background-size: cover;
     }
+    .intro h1{
+      font-size: 25px;
+      letter-spacing: none;
+    }
+    .intro p{
+      font-size: 20px;
+    }
   }
    
 .aboutus{
@@ -166,18 +175,23 @@ header {
   padding: 50px;
  }
 
+h1{
+ font-family: "roboto" ,sans-serif;
+}
+
  .aboutus img{
   border-radius: 40px;
   filter: brightness(70%);
  }
 
 .aboutus p{
-  background-color: #cac3ac;
-  box-shadow: 5px 5px 1px 5px rgb(8, 8, 8);
+  background-color: #e6e2d6;
+  box-shadow: 5px 5px 1px 5px rgb(143, 141, 141);
   border-radius: 40px;
   margin: 30px;
   padding: 20px;
   font-size: 30px;
+  font-family: "roboto" ,sans-serif;
  }
 
  @media screen and (max-width: 767px) {
@@ -189,15 +203,25 @@ header {
     padding: 0;
     align-items: center;
     }
+
+
 .aboutus img{
   border-radius: 100px;
-  width: 100%;
+  margin: auto;
+  width: 350px;
+  height: 300px
   }
+  
   .aboutus p{
     box-shadow: none;
-    font-size: 25px;
     width: 87%;
-    font-size: 28px;
+    font-size: 19px;
+  }
+  h1{
+    font-size: 30px;
+  }
+  p{
+    font-size: 20px;
   }
  }
 
@@ -209,7 +233,7 @@ header {
 }
 
 .preview h1{
-  font-size: 40px;
+  font-size: 50px;
   text-align: center;
   margin: 80px;
 }
@@ -218,6 +242,7 @@ header {
   font-size: 30px;
   text-align: center;
   margin: 80px;
+  font-family: "roboto" ,sans-serif;
 }
 
 .gallery {
@@ -292,6 +317,12 @@ header {
     width: 600px;
     height: 400px;
   }
+  .preview h1{
+    font-size: 30px;
+  }
+  .preview p{
+    font-size: 20px;
+  }
 }
 
 /*sign up section*/
@@ -305,6 +336,8 @@ header {
 #forms .introregister{
 margin: 100px;
 text-align: center;
+font-family: "roboto" ,sans-serif;
+font-size: 30px;
 }
 
 #forms .register{
@@ -343,6 +376,7 @@ select {
 label {
   font-size: 20px;
   font-style: normal;
+  font-family: "roboto" ,sans-serif;
 }
 
 .register p{
@@ -357,12 +391,13 @@ textarea {
   border: 2px solid #ccc;
   border-radius: 4px;
   background-color: #f8f8f8;
-  font-size: 16px;
+  font-size: 20px;
+  font-family: "roboto" ,sans-serif;
   resize: none;
 }
 
 input[type=button], input[type=submit], input[type=reset] {
-  background-color: rgb(180, 214, 241);
+  background-color: rgb(192, 191, 187);
   border: none;
   color: black;
   padding: 16px 32px;
@@ -403,12 +438,17 @@ input[type=submit]:hover{
 
 /*Footer*/
 footer {
-  margin: 20px;
+  background-color:rgba(150, 155, 155, 0.6);
+  margin: 0px;
   left: 0;
   bottom: 0;
+  padding: 30px;
+  height: 100px;
   width: 100%;
+  font-family: "roboto" ,sans-serif;
   color: rgb(5, 5, 5);
   text-align: center;
   font-size: smaller;
+  opacity: 80%;
 }
 /*
