@@ -174,28 +174,6 @@ Example:<br>
 <br>
 <br>
 
-
-## <i><b> Deployment </b></i> <br>
-In this section, i will explain my website deployment process. This sections are divided into 4 sections. Which includes:
-1. Website/Tools Used
-2. Register
-3. Deployment
-3. Domain Registration
-4. Version Update Test by Git
-
-<br>
-<li><b>Website/Tools Used</b><br>
-The tools/website that are used for this deployment are:
-<ul>
-
-[My Github Repo](https://github.com/rifqisaleh/assignment1-rifqisaleh)<br>
-[Netifly](https://www.netlify.com/) <br>
-[Niagahoster](https://www.niagahoster.co.id/)
-
-</ul>
-
-
-
 ## <i><b> Deployment </b></i> <br>
 In this section, i will explain my website deployment process. This sections are divided into 4 sections. Which includes:
 1. Website/Tools Used
