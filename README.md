@@ -15,14 +15,15 @@ I'M A BEGINNER IN SOFTWARE DEVELOPING. WELCOME TO MY GITHUB PROFILE! 🚀✈️
 Hello everyone ! <br/> <br/>
 As part of my software engineering course, i was tasked to make a simple website based of HTML and design it with CSS. This website consist of sticky Navbar, log in & sign up form, Introduction paragraph and gallery preview. This website are made for showcasing airplane photos and as a forum for discussion.
 
-Visit this link (https://rifqisaleh.github.io/assignment1-rifqisaleh/) to access my previous deployment !
+Visit this link (https://aviationforum.site/) to access my deployment !
 
 ## <i><b> Table of Contents </b></i>
 <ul><li>Technologies Used</li>
 <li>Features</li>
 <li>Setup</li>
 <li>Sections</li> 
-<li>Notes</li></ul>
+<li>Notes</li>
+<li>Deployment</li></ul>
 
 
 <br/>
@@ -170,5 +171,117 @@ Example:<br>
   color: white
   }
 ```  
-=======
+<br>
+<br>
 
+
+## <i><b> Deployment </b></i> <br>
+In this section, i will explain my website deployment process. This sections are divided into 4 sections. Which includes:
+1. Website/Tools Used
+2. Register
+3. Deployment
+3. Domain Registration
+4. Version Update Test by Git
+
+<br>
+<li><b>Website/Tools Used</b><br>
+The tools/website that are used for this deployment are:
+<ul>
+
+[My Github Repo](https://github.com/rifqisaleh/assignment1-rifqisaleh)<br>
+[Netifly](https://www.netlify.com/) <br>
+[Niagahoster](https://www.niagahoster.co.id/)
+
+</ul>
+
+
+<br>
+<li><b>Register</b><br>
+I deployed my website through netifly. At first, i struggled to register to the site with every sign-in attempt lead to "authorization error". I then managed to get into my account by following an advice from
+
+[Stock Overflow](https://stackoverflow.com/questions/70109590/we-already-have-a-registered-user-with-this-email-address-log-in-to-connect-you).
+
+<img src="images/register.png"><br>
+*Netifly User Home Page*
+
+
+
+<br>
+<li><b>Deployment</b><br>
+<br>
+
+
+1. After signing in, i proceed to import my existing repository by clicking the "Import From Git" on my main netifly page.
+
+
+2. It will then lead to a page where i can choose to export my project from different git provider. In this case, i'll be using github.  
+<br/> <img src="images/deployment1.png"> <br/>
+
+3. It will prompt to select a specific repo to deploy. In this instance, i'm using my assignment 1 repo. 
+<br/> <img src="images/deployment2.png">
+
+
+4. I chose "aviationforum" as my site name. It will then check my preferred name availability.
+<br/> <img src="images/deployment3.png">
+
+5. Within the same page, i then proceeds to deploy my project by clicking `Deploy aviationforum`
+<br/> <img src="images/deployment4.png">
+
+6. It will then revert back to site overview, where i can observe the deployment progress. 
+<br/> <img src="images/deployment5.png">
+
+
+7. When the deployment are done, a success message popped up. 
+<br/> <img src="images/deployment6.png">
+
+<br/>
+<li><b>Domain Registration</b></li><br/>
+
+1. For this deployment, i will be using a local domain hosting, niagahoster.
+
+2. After log-in, i clicked `Miliki Domain Baru`, add my preferred site name and then purchase the preferred domain.<br/> <img src="images/hosting1.png">
+
+3. Next, i set the site configuration and personal contact information. <br/><img src="images/hosting2.png">
+
+4. If successful,the page then redirected to `Ringkasan Domain`, and then i need to configure the DNS name. <br/> <img src="images/hosting3.png">
+
+5. To set up the DNS name, i went back to netifly and on the Site Overview page, i chose `Set Up a Custom Domain`. 
+
+6. I then add and verify my preferred site name (aviationforum.site). Afterwards, i proceeds to `Add Domain`. <br/> <img src="images/hosting5.png">
+
+7. The page then redirected to Domain Management, and just to the right of "aviationforum.site", i click `option` and `Go To DNS Panel`. <br/> <img src="images/hosting6.png">
+
+8. I then copy the four domain's name server, and paste it on niagahoster name server. 
+<br/> <img src="images/hosting7.png">  <img src="images/hosting8.png">
+
+9. After saving the DNS name, I waited at least 30 minutes before i can finally access my website.
+
+<br/>
+<li><b>Version Update Test by Git</b></li><br/>
+In this section, i will demonstrate a mock fix of my repo by using git.
+
+1. First, on my terminal i make a new branch under the name of feature/bugfix by using:<br/>
+`git checkout -b feature/bugfix`
+
+2. I corrected a grammar mistake in line 58, proceeds to add the revised code and commit the changes with an appropriate message regarding the changes. <br/>
+`git add index.html`
+`git commit -m"Adding Plural on line 58"`
+
+3. I then proceed to push the changes by using:<br/>
+`git push origin feature/bugfix`
+
+4. On my repo, i then navigate toward `Pull Request` and the changes i made are now visible. I then add description and proceeds to create pull request.
+<br/> <img src="images/version1.png">
+
+5. The system will then review whether there'll be any conflict within my code. As there are no conflict, i then proceeds with merging the pull request.
+<br/> <img src="images/version2.png"><br/>
+*Succesfully merged*
+<br/>
+
+6. With the help of CI/CD, the changes i made automatically updated my current active site.
+<br/> <img src="images/version3.png"><br/>
+*Netifly merging the updated code*<br/> <br/> <br/>
+ <img src="images/gallerypreview.png"><br/>
+ *Before*<br/> <br/> <br/>
+ <img src="images/version4.png"> <br/>
+ *After*
