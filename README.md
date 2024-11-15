@@ -175,7 +175,7 @@ Example:<br>
 <br>
 
 ## <i><b> Deployment </b></i> <br>
-In this section, i will explain my website deployment process. This sections are divided into 4 sections. Which includes:
+In this section, i will explain my website deployment process. This sections are divided into 5 sections. Which includes:
 1. Website/Tools Used
 2. Register
 3. Deployment
